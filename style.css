@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-style: Times, serif;
+  color: white;
+  background-color: black;
+}
+
+.header {
+  padding: 32px;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0px auto;
+  max-width: 78rem;
+  color: black;
+  background-color: white;
+  align-items: center;
+  padding: 0 0 0 16px;
+}
+
+.tribute blockquote {
+  font-size: 48px;
+  text-align: center;
+}
+
+.tribute img {
+  max-width: 100%;
+}
+
+.bio {
+  margin: 32px auto;
+  padding: 0 8px;
+  max-width: 640px;
+}
+
+.bio h2 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.bio p {
+  font-size: 19.2px;
+  line-height: 1.4;
+}
+
+hr {
+  margin-top: 32px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.heart {color:#e25555;}
